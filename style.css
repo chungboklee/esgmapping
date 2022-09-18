@@ -17,5 +17,21 @@
     width:100%!important;
   }
 
- #map {width:100%!important;}
+ #map {
+  width:100%!important;
+}
  #map_inner{height:100%!important;}
+
+ footer{
+  position:fixed;
+  z-index:1;
+  color: #fff;
+  left:0;
+  bottom:0;
+  margin-left: 16px;
+  margin-bottom: 32px;
+ }
+
+ footer h1{font-size:16px;}
+ footer p{font-size: 14px;}
+

@@ -1,16 +1,16 @@
 var simplemaps_worldmap_mapdata={
   main_settings: {
    //General settings
-    width: "700", //'700' or 'responsive'
+    width: "responsive", //'700' or 'responsive'
     background_color: "lightblue",
     background_transparent: "yes",
     popups: "detect",
     state_description: "",
-    state_color: "#75AF96",
+    state_color: "#3e4549",
     state_hover_color: "#0F5738",
-    state_url: "javascript:alert('Send users to a url (like http://simplemaps.com). Or, activate a javascript function upon click.');",
+    state_url: "javascript:alert('Information is not ready.');",
     border_size: "1",
-    border_color: "#f1f2f3",
+    border_color: "#111314",
     all_states_inactive: "no",
     all_states_zoomable: "no",
     
@@ -19,7 +19,7 @@ var simplemaps_worldmap_mapdata={
     location_color: "#FF0067",
     location_opacity: 0.8,
     location_hover_opacity: 1,
-    location_url: "http://simplemaps.com",
+    location_url: "",
     location_size: 25,
     location_type: "square",
     location_border_color: "#FFFFFF",
@@ -52,7 +52,7 @@ var simplemaps_worldmap_mapdata={
     
     //Popup settings
     popup_color: "white",
-    popup_opacity: 0.9,
+    popup_opacity: 0.5,
     popup_shadow: 1,
     popup_corners: 5,
     popup_font: "12px/1.5 Verdana, Arial, Helvetica, sans-serif",
