@@ -1,6 +1,3 @@
-/*Copyright 2010-2022 Simplemaps.com
-html5worldmapv4.212 - trial version
-Use pursuant to license agreement at https://simplemaps.com/license */
 
 /* shifty - v1.5.3 - http://jeremyckahn.github.io/shifty, embedded within map logic*/
 
