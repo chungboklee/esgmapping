@@ -777,7 +777,7 @@ var simplemaps_worldmap_mapdata={
       ]
     },
     "6": {
-      name: "South Asia",
+      name: "Asia",
       states: [
         "TW",
         "IN",
