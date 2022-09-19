@@ -10,7 +10,7 @@ html::-webkit-scrollbar {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 99vh;
     overflow: visible;
       animation: textShadow 1.6s infinite;
       filter: grayscale(100%) sepia(100%) hue-rotate(75deg);
@@ -52,7 +52,7 @@ html::-webkit-scrollbar {
   html::before{
     content: " ";
     width:100vw;
-    height:100vh;
+    height:99vh;
     display:block;
     position:fixed;
     top:0;
@@ -71,24 +71,41 @@ html::-webkit-scrollbar {
     width:100%!important;
   }
 
- #map {width:100%!important;}
+ #map {width:100%!important}
  #map_zoom{display:none!important;}
- #map_inner{height:100%!important;overflow:visible!important;}
+ #map_inner{height:99vh!important;overflow:visible!important;}
  #map_outer{display:none!important;}
 
+.btn-icon{
+  font-size:1rem;
+  padding:0.5rem;
+  background-color: #aab1b8;
+  cursor: pointer;
+
+  
+}
+
  footer{
+  display: grid;
+  grid-template-columns: auto auto;
   position:fixed;
   z-index:1;
   color: #aab1b8;
+  width:100vw;
   left:0;
   bottom:0;
-  margin-left: 16px;
   margin-bottom: 32px;
  }
 
  footer h3{font-size:24px;}
  footer p{font-size: 14px;}
-
+.footer-left{
+  margin-left: 1rem;
+}
+.footer-right{
+  text-align:right;
+  margin-right: 1rem;
+}
  
  @media screen and (orientation:landscape) and (max-width:800px){
    .container{
