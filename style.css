@@ -75,7 +75,7 @@ html::-webkit-scrollbar {display: none;}
   }
 
  #map {
-  width:100%!important;
+  width:100%!important; 
 }
 
  #map_zoom{display:none!important;}
